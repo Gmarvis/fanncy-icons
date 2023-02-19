@@ -1,0 +1,107 @@
+    * {
+        margin: 0;
+        padding-left: 0;
+        box-sizing: border-box;
+        font-family: 'poppins';
+    }
+    
+    body,
+    html {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    }
+    
+    .wrapper .button {
+        display: inline-block;
+        height: 0x;
+        width: 60px;
+        float: left;
+        margin: 0 5px;
+        overflow: hidden;
+        background: #ffffff;
+        border-radius: 100px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px (0, 0, 0, 0, 1);
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:hover {
+        width: 200px;
+    }
+    
+    .wrapper .button .icons {
+        display: inline-block;
+        height: 60x;
+        width: 60px;
+        text-align: center;
+        /* align-content: center; */
+        border-radius: 50px;
+        box-shadow: 0px 10px 10px (0, 0, 0, 0, 1);
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:nth-child(1):hover .icons {
+        background: #4267b2;
+    }
+    
+    .wrapper .button:nth-child(2):hover .icons {
+        background: #1da1f2;
+    }
+    
+    .wrapper .button:nth-child(3):hover .icons {
+        background: #e1306c;
+    }
+    
+    .wrapper .button:nth-child(4):hover .icons {
+        background: #3a74e7;
+    }
+    
+    .wrapper .button:nth-child(5):hover .icons {
+        background: #f10808;
+    }
+    
+    .wrapper .button .icons {
+        font-size: 25px;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+        justify-content: center;
+    }
+    
+    .wrapper .button .icons:hover i {
+        color: #fff;
+    }
+    
+    .wrapper .button span {
+        color: #fff;
+    }
+    
+    .wrapper .button:nth-child(1):hover span {
+        color: #4267b2;
+    }
+    
+    .wrapper .button:nth-child(2):hover span {
+        color: #1da1f2;
+    }
+    
+    .wrapper .button:nth-child(3):hover span {
+        color: #e1306c;
+    }
+    
+    .wrapper .button:nth-child(4):hover span {
+        color: #3a74e7;
+    }
+    
+    .wrapper .button:nth-child(5):hover span {
+        color: #f10808;
+    }
+    
+    .header_section {
+        background-color: #1da1f2;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+    }
